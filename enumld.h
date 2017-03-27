@@ -1,0 +1,10 @@
+#ifndef ENUMID_H_INCLUDED
+#define ENUMID_H_INCLUDED
+
+enum GameId
+{
+	GUI_ID_VALIDER = 101,
+};
+
+#endif // ENUMID_H_INCLUDED
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ControleperfCedricTellier" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ControleperfCedricTellier" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/C++/irrlicht-1.8.4/bin/Win32-gcc" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ControleperfCedricTellier" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/C++/irrlicht-1.8.4/bin/Win32-gcc" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/C++/irrlicht-1.8.4/include" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add directory="C:/C++/irrlicht-1.8.4/lib/Win32-gcc" />
+		</Linker>
+		<Unit filename="GameGUI.cpp" />
+		<Unit filename="GameGUI.h" />
+		<Unit filename="MyEventReceiver.cpp" />
+		<Unit filename="MyEventReceiver.h" />
+		<Unit filename="enumld.h" />
+		<Unit filename="jeu.cpp" />
+		<Unit filename="jeu.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
